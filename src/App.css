@@ -16,7 +16,16 @@
   letter-spacing: 2px;
   margin-bottom: 2rem;
 }
-
+.Application {
+  background-color: #F9C22E  ;
+  color: #53B3CB ;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
 .navbar {
   display: flex;
   flex-direction: row;

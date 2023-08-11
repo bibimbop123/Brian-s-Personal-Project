@@ -8,6 +8,7 @@ export function Home() {
   return (
     <div id="home">
       <h2>Welcome to Brian's Project</h2>
+      <br />
       <h3>Who Am I?</h3>
       <section>
         Hi, my name is Brian Kim, and I'm a motivated software engineer
