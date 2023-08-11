@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 export function Nav() {
   return (
-    <nav class="navbar">
+    <nav className="navbar">
       <Link class="navbar" to="/">
         {" "}
         Home{" "}
