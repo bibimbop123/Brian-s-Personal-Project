@@ -21,8 +21,8 @@ export function Home() {
         trainer. But you know what ties it all together? My unwavering passion
         for learning and creating. Currently I work part-time in the restaurant
         industry and laundry cleaning industry while I study data structure and
-        algorithm problems, build projects, and apply to Software engineering
-        Jobs!
+        algorithm problems, building projects, and applying to Software
+        engineering Jobs!
       </section>
       <br />
       <h3>What Do I Do?</h3>
@@ -71,7 +71,7 @@ export function Home() {
       <section>
         There's so much out there to learn it can be overwelming. My list of
         languages, libraries, and frameworks I want to master keeps growing –
-        Typescript, Redux, Next.js, MongoDb, Stripe.js, Vitest.js, and many many
+        Typescript, Redux, Next.js, MongoDb, Stripe.js, Vitest.js, and much much
         more. I'll admit, it can be a bit overwhelming at times. But you know
         what? That feeling just fuels my determination. I'm excited to take on
         these challenges and keep growing in this ever-evolving field. I'm
