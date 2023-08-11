@@ -14,6 +14,7 @@ export function Home() {
       <div className="center">
         <img className="Pictures" src={BrianYouth} alt="Brian Kim" />
       </div>
+      <br />
       <section>
         Hey there, I'm Brian Kim, and I'm excited to connect with you. I've got
         a background that is a bit diverse – a Bachelor's degree in Kinesiology

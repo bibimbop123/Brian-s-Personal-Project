@@ -3,6 +3,7 @@ export function About() {
   return (
     <div>
       <h3>What Do I Do?</h3>
+      <br />
       <section>
         I thrive on solving puzzles and creating real impact. My journey: from
         personal training and restaurant hustle to laundry duty, all part of a
@@ -14,6 +15,7 @@ export function About() {
       </section>
       <br />
       <h3>What Am I Looking For?</h3>
+      <br />
       <section>
         I'm on the hunt for a software engineering job that's a mix of exciting
         challenges, team collaboration, and meaningful impact. Learning and
@@ -24,6 +26,7 @@ export function About() {
       </section>
       <br />
       <h3>What Are My Hobbies?</h3>
+      <br />
       <section>
         I enjoy playing basketball, playing chess, and learning about web
         development. Most importantly, I'm always looking for ways to improve
@@ -32,6 +35,7 @@ export function About() {
       </section>
       <br />
       <h3>What Are My Goals?</h3>
+      <br />
       <section>
         Professionally, my goal is to achieve success, but that's just a natural
         outcome of my ambitious drive. What truly fuels me is the desire to
@@ -39,12 +43,14 @@ export function About() {
       </section>
       <br />
       <h3>What Are My Strengths?</h3>
+      <br />
       <section>
         I'm a hard worker, a fast learner, and a team player. I'm very
         passionate about what I do.
       </section>
       <br />
       <h3>What Are My Weaknesses?</h3>
+      <br />
       <section>
         There's so much out there to learn it can be overwelming. My list of
         languages, libraries, and frameworks I want to master keeps growing –
@@ -54,6 +60,8 @@ export function About() {
         these challenges and keep growing in this ever-evolving field. I'm
         definitely a lifelong learner!
       </section>
+      <br />
+      <br />
       <footer className="footer">
         <p>Copyright © 2023 Brian Kim</p>
       </footer>
