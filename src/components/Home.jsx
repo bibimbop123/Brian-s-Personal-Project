@@ -31,6 +31,8 @@ export function Home() {
       <Contact />
       <Portfolio />
       <Footer key="footer" />
+      <br />
+      <br />
     </div>
   );
 }

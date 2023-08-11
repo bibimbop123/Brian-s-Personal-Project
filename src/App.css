@@ -33,15 +33,17 @@ body {
 }
 
 .Pictures {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   margin: 10px;
   padding: 10px;
   background-color: #F15946;
   border: 1px solid black;
 }
-
+#quotes {
+  font-style: italic;
+}
 .center {
   display: flex;
   flex-direction: column;

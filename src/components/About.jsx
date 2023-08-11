@@ -30,9 +30,13 @@ export function About() {
       <section>
         I enjoy playing basketball, playing chess, and learning about web
         development. Most importantly, I'm always looking for ways to improve
-        myself and my skills. You can't be the best at everything, but you can
-        always be the hardest worker!
+        myself and my skills.
       </section>
+      <br />
+      <p id="quotes">
+        "You can't always be the best at everything, but you can always be the
+        hardest worker!"- Brian Kim"
+      </p>
       <br />
       <h3>What Are My Goals?</h3>
       <br />
@@ -52,7 +56,7 @@ export function About() {
       <h3>What Are My Weaknesses?</h3>
       <br />
       <section>
-        There's so much out there to learn it can be overwelming. My list of
+        There's so much out there to learn, it can be overwelming. My list of
         languages, libraries, and frameworks I want to master keeps growing –
         Typescript, Redux, Next.js, MongoDb, Stripe.js, Vitest.js, and much much
         more. I'll admit, it can be a bit overwhelming at times. But you know
