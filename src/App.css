@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 .Application {
   background-color: #53B3CB  ;
   color: #0C090D ;
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 2rem;
