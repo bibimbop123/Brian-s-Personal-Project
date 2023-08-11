@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <h1> Brian's Project </h1>
+      <h1 id="head"> Brian's Project </h1>
       <div id="main-section">
         <Routes>
           <Route path="/" element={<Home />} />

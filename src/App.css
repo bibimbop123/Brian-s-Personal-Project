@@ -4,6 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+#head{
+  background-color: #0C090D;
+  color: #53B3CB;
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
 
 .navbar {
   display: flex;
@@ -24,7 +36,7 @@
   padding: 2rem;
   width: 100%;
 }
-.home{
+#home{
   background-color: #F9C22E  ;
   color: #0C090D;
   padding: 10px;

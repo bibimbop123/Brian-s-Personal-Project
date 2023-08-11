@@ -6,7 +6,7 @@ import { Footer } from "./Footer";
 export function Home() {
   //make it return a div with the text "Welcome to Brian's Project"
   return (
-    <div class="home">
+    <div id="home">
       <h2>Welcome to Brian's Project</h2>
       <h3>Who Am I?</h3>
       <section>
