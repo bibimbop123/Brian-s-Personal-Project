@@ -46,7 +46,7 @@ export let timelineElements = [
     title: "Graduated University of Illinois",
     location: "Chicago",
     description:
-      "It was only natural for me to major in Exercise Science with a Psychology minor. I was able to learn about the human body and how it works, and how to apply that knowledge to help people. But most importantly, here is where I learned how to learn.",
+      "It was only natural for me to major in Exercise Science with a Psychology minor. I was able to learn about the human body and how it works, and how to apply that knowledge to help people. But most importantly, This was where I learned how to learn.",
     buttonText: "Button 3",
     date: "June 2014-2019",
     icon: { SchoolIcon },
