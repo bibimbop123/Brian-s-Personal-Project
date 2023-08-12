@@ -157,7 +157,7 @@ body {
 
 
 img{
-  display: block;
+  display: column;
   width: 100%;
   height: auto;
 }
@@ -170,6 +170,38 @@ img.linkedin{
   width: 2rem;
   height: 2rem;
   margin: 0.5rem;
+}
+img.githubcontact{
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+img.githubcontact:hover{
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+img.linkedincontact{
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+img.linkedincontact:hover{
+  width: 10rem;
+  height: 10rem;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  opacity: 0.5;
 }
 a:hover {
   color: #F15946;
