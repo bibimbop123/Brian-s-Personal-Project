@@ -5,8 +5,8 @@ import { Nav } from "./components/Navbar";
 import { About } from "./components/About";
 import { Portfolio } from "./components/Portfolio";
 import { Contact } from "./components/Contact";
-import workIcon from "./assets/workIcon.jpg";
-import schoolIcon from "./assets/schoolIcon.jpg";
+import workIcon from "./assets/workIcon.svg";
+import schoolIcon from "./assets/schoolIcon.svg";
 import { timelineElements } from "./timelineElements";
 import {
   VerticalTimeline,
@@ -15,8 +15,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function App() {
-  let workIconStyles = { background: "#06D6A0" };
-  let schoolIconStyles = { background: "#f9c74f" };
+  let workIconStyles = { background: "#06D6A0", height: "25%" };
+  let schoolIconStyles = { background: "#f9c74f", height: "25%" };
   return (
     <div className="Application">
       <Nav />

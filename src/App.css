@@ -9,6 +9,11 @@ body{
   color: #515151;
   font-size: 16px;
   font-size:16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+
 }
 .title {
   font: 10em;
@@ -22,13 +27,35 @@ h3 {
   font-weight: bolder;
 }
 .vertical-time-line-element content{
-  box-shadow:  0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0 4em 1.25em 0 rgba( 0, 0, 0, 0.15) !important;
+  box-shadow:  0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0.4em 1.25em 0 rgba( 0, 0, 0, 0.15) !important;
   padding: 2em 3em !important;
 
+}
+.date .vertical-time-line-element{
+  background-color: #F15946 !important;
+  color: #0C090D !important;
+  font-weight: bolder !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 1rem !important;
+}
+#description{
+  margin: 1.5em 0 2em
 }
 .vertical-timeline-element {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.vertical-timeline-element-icon {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background-color: #F15946;
+  color: #0C090D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .vertical-timeline-element:hover {
@@ -124,6 +151,6 @@ body {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: 70%;
+  height: 70%;
 }

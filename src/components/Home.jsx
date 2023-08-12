@@ -18,12 +18,12 @@ export function Home() {
       <section>
         Hey there, I'm Brian Kim, and I'm excited to connect with you. I've got
         a background that is a bit diverse – a Bachelor's degree in Kinesiology
-        with a minor in Psychology, and yep, I used to be a certified personal
-        trainer. But you know what ties it all together? My unwavering passion
-        for learning and creating. Currently I work part-time in the restaurant
-        industry and laundry cleaning industry while I study data structure and
-        algorithm problems, building projects, and applying to Software
-        engineering Jobs!
+        with a minor in Psychology, and yep, I also used to be a certified
+        personal trainer. But you know what ties it all together? My unwavering
+        passion for learning and creating. Currently I work part-time in the
+        restaurant industry and laundry cleaning industry while I study data
+        structure and algorithm problems, building projects, and applying to
+        Software engineering Jobs!
       </section>
       <br />
       <br />

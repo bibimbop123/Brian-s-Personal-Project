@@ -1,14 +1,14 @@
-import WorkIcon from "./assets/WorkIcon.jpg";
-import SchoolIcon from "./assets/SchoolIcon.jpg";
+import WorkIcon from "./assets/workIcon.svg";
+import SchoolIcon from "./assets/schoolIcon.svg";
 
 export let timelineElements = [
   {
     id: 1,
-    title: "Step 1",
-    location: "Location 1",
-    description: "Description 1",
+    title: "Hello World",
+    location: "Chicago, IL",
+    description: "I was born ",
     buttonText: "Button 1",
-    date: "2011 - 2014",
+    date: "July, 1996 - 1997",
     icon: { WorkIcon },
   },
   {
