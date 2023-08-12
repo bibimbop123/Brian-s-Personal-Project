@@ -33,8 +33,8 @@ function App() {
         <h1 className="title">Timeline</h1>
         <VerticalTimeline>
           {timelineElements.map((element, index) => {
-            console.log(element);
-            let isWorkIcon = element.icon === "work";
+            console.log("element", element);
+            let isWorkIcon = element.icon.hasOwnProperty("WorkIcon");
             let showButton =
               element.buttonText !== undefined &&
               element.buttonText !== null &&
@@ -45,7 +45,13 @@ function App() {
                 date={element.date}
                 dateClassName="date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-                icon={isWorkIcon ? <workIcon /> : <schoolIcon />}
+                icon={
+                  isWorkIcon ? (
+                    <img src={workIcon} alt="Work Icon" />
+                  ) : (
+                    <img src={schoolIcon} alt="School Icon" />
+                  )
+                }
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}

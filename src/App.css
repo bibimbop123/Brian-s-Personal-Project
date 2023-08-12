@@ -15,6 +15,7 @@ body{
   text-align: center;
   font-family: "Bebas Neue", Sans-serif;
 }
+
 h3 {
   padding-top: 0.25em;
   font-size: 1.5rem;
@@ -24,6 +25,15 @@ h3 {
   box-shadow:  0 0.25em 0.5em 0 rgba(0,0,0,0.25), 0 0 4em 1.25em 0 rgba( 0, 0, 0, 0.15) !important;
   padding: 2em 3em !important;
 
+}
+.vertical-timeline-element {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vertical-timeline-element:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.25), 0 0 2em 0 rgba(0, 0, 0, 0.15);
 }
 
 .Application {
@@ -98,4 +108,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.workIcon {
+  color: #F15946;
+  font-size: 2rem;
+  margin-right: 1rem;
+  font-size: 2rem; 
+}
+
+.schoolIcon {
+  color: #F15946;
+  font-size: 2rem;
+  margin-right: 1rem;
+  font-size: 2rem; 
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
