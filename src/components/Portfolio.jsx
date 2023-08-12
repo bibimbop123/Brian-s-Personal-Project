@@ -57,6 +57,9 @@ export function Portfolio() {
               </Card.Body>
             </Card>
           </div>
+          <br />
+          <br />
+          <br />
         </div>
         <footer className="footer">
           <p>Copyright © 2023 Brian Kim</p>

@@ -29,8 +29,13 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <br />
+      <br />
+      <br />
       <div id="timeline">
-        <h1 className="title">Timeline</h1>
+        <h1 className="title">Timeline of Brian's Life </h1>
+        <br />
+        <br />
         <VerticalTimeline>
           {timelineElements.map((element, index) => {
             console.log("element", element);
