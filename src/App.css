@@ -43,24 +43,6 @@ h3 {
   margin: 1.5em 0 2em 0;
 
 }
-.button {
-  text-decoration: none;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  color:white;
-}
-.workButton {
-  background-color: #0C090D;
-}
-.workButton:hover {
-  background-color: #F15946;
-}
-.schoolButton {
-  background-color: #0C090D;
-}
-.schoolButton:hover {
-  background-color: #F15946;
-}
 .vertical-timeline-element {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -82,6 +64,10 @@ h3 {
   box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.25), 0 0 2em 0 rgba(0, 0, 0, 0.15);
 }
 
+.vertical-timeline-element:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
 .Application {
   background-color: #53B3CB  ;
   color: #0C090D ;
@@ -174,9 +160,6 @@ img {
   height: 70%;
 }
 
-.box {
-  border: 1px solid black;
-}
 @media only screen and (max-width: 1700px) {
   .vertical-time-line-element-data {
     display:block !important;
