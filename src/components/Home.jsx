@@ -4,7 +4,6 @@ import { Portfolio } from "./Portfolio";
 import { Footer } from "./Footer";
 import BrianYouth from "../assets/BrianYouth.jpg";
 import ".././App.css";
-import { ReactComponent as WorkIcon}
 
 export function Home() {
   return (

@@ -5,8 +5,8 @@ import { Nav } from "./components/Navbar";
 import { About } from "./components/About";
 import { Portfolio } from "./components/Portfolio";
 import { Contact } from "./components/Contact";
-import WorkIcon from "../assets/WorkIcon.jpg";
-import SchoolIcon from "../assets/SchoolIcon.jpg";
+import WorkIcon from "./assets/workIcon.jpg";
+import SchoolIcon from "./assets/schoolIcon.jpg";
 import { timelineElements } from "./timelineElements";
 import {
   VerticalTimeline,
