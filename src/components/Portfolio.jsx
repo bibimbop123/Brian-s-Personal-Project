@@ -15,7 +15,12 @@ export function Portfolio() {
         <div className="row">
           <div className="col-sm">
             <Card>
-              <Card.Img variant="top" src={Mickeyds} alt="Mickey-ds" />
+              <Card.Img
+                className="PortfolioPics"
+                variant="top"
+                src={Mickeyds}
+                alt="Mickey-ds"
+              />
               <Card.Body>
                 <Card.Title>Mickey d's</Card.Title>
                 <Card.Text>
@@ -40,6 +45,7 @@ export function Portfolio() {
           <div className="col-sm">
             <Card>
               <Card.Img
+                className="PortfolioPics"
                 variant="top"
                 src={StrangerThings}
                 alt="Stranger Things"

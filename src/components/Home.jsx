@@ -27,7 +27,6 @@ export function Home() {
       </section>
       <br />
       <br />
-      <Contact />
       <Portfolio />
       <Footer key="footer" />
       <br />
