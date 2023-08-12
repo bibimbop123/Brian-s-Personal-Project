@@ -155,14 +155,21 @@ body {
   font-size: 2rem; 
 }
 
-img .PortfolioPics {
-  width: 70%;
-  height: 70%;
-}
+
 img{
   display: block;
-  width:2rem;
-  height:2rem;
+  width: 100%;
+  height: auto;
+}
+img.github{
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
+img.linkedin{
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
 }
 a:hover {
   color: #F15946;

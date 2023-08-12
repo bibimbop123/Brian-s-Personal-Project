@@ -10,6 +10,7 @@ export function Footer() {
         rel="noopener noreferrer"
       >
         <img
+          className="github"
           src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
           alt="Github"
           width="5px"
@@ -23,6 +24,7 @@ export function Footer() {
         rel="noopener noreferrer"
       >
         <img
+          className="linkedin"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
           alt="LinkedIn"
           width="5px"
