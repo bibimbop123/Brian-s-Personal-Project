@@ -47,10 +47,10 @@ export function Portfolio() {
               <Card.Body>
                 <Card.Title>Stranger Things</Card.Title>
                 <Card.Text>
-                  Engineered Forum application, where user can login, register,
-                  create post, check out profile with user’s posts, and check
-                  out all posts page. Built using Frontend technologies; such as
-                  React, BrowserRouter, and AuthProvider.
+                  Engineered Forum application like Craigslist, where user can
+                  login, register, create post, check out profile with user’s
+                  posts, and check out all posts page. Built using Frontend
+                  technologies; such as React, BrowserRouter, and AuthProvider.
                 </Card.Text>
                 <Button
                   variant="primary"
