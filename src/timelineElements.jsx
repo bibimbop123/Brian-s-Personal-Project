@@ -82,7 +82,7 @@ export let timelineElements = [
     id: 6,
     title: "Graduated FullStack Academy Part-time Coding Bootcamp",
     description:
-      "I learned PERN stack, which is PostgreSQL, Express, React, and Node. I also learned how to use Git and Github. I learned how to work with a team and how to communicate effectively. It was so refreshing to learn again especially something like coding, as it gives me the power to express myself and problem solve in a new way that is truly meaningful! I also learned how to debug, and that alone could be a bootcamp's worth material. Ultimately, I learned how to be a software engineer.",
+      "I learned PERN stack, which is PostgreSQL, Express, React, and Node. I also learned how to use Git and Github. I learned how to work with a team and how to communicate effectively. It was so refreshing to learn again especially coding, as it gives me the power to express myself and problem solve in a new way that is truly meaningful! I also learned how to debug, and that alone could be a bootcamp's worth material. Ultimately, I learned how to be a software engineer.",
     buttonText: "Button 5",
     date: "2022-2023",
     icon: { SchoolIcon },

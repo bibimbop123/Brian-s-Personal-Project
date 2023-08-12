@@ -159,7 +159,10 @@ img {
   width: 70%;
   height: 70%;
 }
-
+a:hover {
+  color: #F15946;
+    
+}
 @media only screen and (max-width: 1700px) {
   .vertical-time-line-element-data {
     display:block !important;
