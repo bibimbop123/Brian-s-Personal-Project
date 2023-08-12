@@ -40,7 +40,26 @@ h3 {
   margin-bottom: 1rem !important;
 }
 #description{
-  margin: 1.5em 0 2em
+  margin: 1.5em 0 2em 0;
+
+}
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color:white;
+}
+.workButton {
+  background-color: #0C090D;
+}
+.workButton:hover {
+  background-color: #F15946;
+}
+.schoolButton {
+  background-color: #0C090D;
+}
+.schoolButton:hover {
+  background-color: #F15946;
 }
 .vertical-timeline-element {
   cursor: pointer;
@@ -153,4 +172,16 @@ body {
 img {
   width: 70%;
   height: 70%;
+}
+
+.box {
+  border: 1px solid black;
+}
+@media only screen and (max-width: 1700px) {
+  .vertical-time-line-element-data {
+    display:block !important;
+    float: none !important;
+    color: #0C090D !important;
+    margin-top: 1.5em;
+  }
 }

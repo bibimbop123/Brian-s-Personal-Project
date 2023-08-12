@@ -15,8 +15,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function App() {
-  let workIconStyles = { background: "#06D6A0", height: "25%" };
-  let schoolIconStyles = { background: "#f9c74f", height: "25%" };
+  let workIconStyles = { background: "#06D6A0" };
+  let schoolIconStyles = { background: "#f9c74f" };
   return (
     <div className="Application">
       <Nav />
@@ -60,16 +60,6 @@ function App() {
                   {element.location}
                 </h5>
                 <p id="description">{element.description}</p>
-                {showButton && (
-                  <a
-                    className={`button ${
-                      isWorkIcon ? "workButton" : "schoolButton"
-                    }`}
-                    href="/"
-                  >
-                    {element.buttonText}
-                  </a>
-                )}
               </VerticalTimelineElement>
             );
           })}
