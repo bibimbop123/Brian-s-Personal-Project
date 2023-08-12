@@ -87,6 +87,18 @@ h3 {
   font-weight: bolder;
   padding: .5rem
 }
+.navbar a {
+  color: #0C090D;
+  text-decoration: none;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #F9C22E;

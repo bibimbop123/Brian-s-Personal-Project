@@ -4,7 +4,8 @@ export function Contact() {
   //make a contact page with links to github and deployed apps
   return (
     <div>
-      <div> Contact </div>
+      <div> Contact Me Here!</div>
+      <br />
       <a
         href="https://github.com/bibimbop123"
         target="_blank"
