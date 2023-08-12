@@ -71,11 +71,20 @@ export let timelineElements = [
   },
   {
     id: 6,
+    title: "Roti Modern Mediterranean Server",
+    description:
+      "I learned how to work at a fast paced environment and how to work with a team. I learned how to communicate effectively and how to be a leader. I learned how to be a better person.",
+    buttonText: "Button 5",
+    date: "2022-Current",
+    icon: { WorkIcon },
+  },
+  {
+    id: 6,
     title: "Graduated FullStack Academy Part-time Coding Bootcamp",
     description:
-      "I learned the PERN stack, which is Postgres, Express, React, and Node. I also learned how to use Git and Github. I learned how to work with a team and how to communicate effectively. It was so refreshing to be learning again especially something like coding, as it gives me the power to express myself and problem solve in a new way that is truly meaningful! I learned how to debug, and honestly that alone could be a bootcamp's worth material xD. Ultimately, I learned how to be a software engineer.",
+      "I learned PERN stack, which is Postgres, Express, React, and Node. I also learned how to use Git and Github. I learned how to work with a team and how to communicate effectively. It was so refreshing to be learning again especially something like coding, as it gives me the power to express myself and problem solve in a new way that is truly meaningful! I also learned how to debug, and that alone could be a bootcamp's worth material. Ultimately, I learned how to be a software engineer.",
     buttonText: "Button 5",
-    date: "2019-2020",
-    icon: { WorkIcon },
+    date: "2022-2023",
+    icon: { SchoolIcon },
   },
 ];
