@@ -27,7 +27,11 @@ export function Portfolio() {
                   inventory, update products, add to menu and update the user
                   and delete the user.
                 </Card.Text>
-                <Button variant="primary" href="https://mickey-d.onrender.com/">
+                <Button
+                  variant="primary"
+                  href="https://mickey-d.onrender.com/"
+                  target="_black"
+                >
                   Visit Website
                 </Button>
               </Card.Body>
@@ -51,6 +55,7 @@ export function Portfolio() {
                 <Button
                   variant="primary"
                   href="https://celadon-daifuku-95b68a.netlify.app/"
+                  target="_blank"
                 >
                   Visit Website
                 </Button>
