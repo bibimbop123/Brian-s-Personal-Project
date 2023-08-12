@@ -59,11 +59,11 @@ export function About() {
       <section>
         There's so much out there to learn, it can be overwelming. My list of
         languages, libraries, and frameworks I want to master keeps growing –
-        Typescript, Redux, Next.js, MongoDb, Stripe.js, Vitest.js, and much much
-        more. I'll admit, it can be a bit overwhelming at times. But you know
-        what? That feeling just fuels my determination. I'm excited to take on
-        these challenges and keep growing in this ever-evolving field. I'm
-        definitely a lifelong learner!
+        Typescript, Jquery, Redux, Next.js, MongoDb, Stripe.js, Vitest.js, and
+        much much more. I'll admit, it can be a bit overwhelming at times. But
+        you know what? That feeling just fuels my determination. I'm excited to
+        take on these challenges and keep growing in this ever-evolving field.
+        I'm definitely a lifelong learner!
       </section>
       <br />
       <br />
