@@ -5,8 +5,8 @@ import { Nav } from "./components/Navbar";
 import { About } from "./components/About";
 import { Portfolio } from "./components/Portfolio";
 import { Contact } from "./components/Contact";
-import WorkIcon from "./assets/workIcon.jpg";
-import SchoolIcon from "./assets/schoolIcon.jpg";
+import workIcon from "./assets/workIcon.jpg";
+import schoolIcon from "./assets/schoolIcon.jpg";
 import { timelineElements } from "./timelineElements";
 import {
   VerticalTimeline,
@@ -32,7 +32,8 @@ function App() {
       <div id="timeline">
         <h1 className="title">Timeline</h1>
         <VerticalTimeline>
-          {timelineElements.map((element) => {
+          {timelineElements.map((element, index) => {
+            console.log(element);
             let isWorkIcon = element.icon === "work";
             let showButton =
               element.buttonText !== undefined &&
@@ -40,11 +41,11 @@ function App() {
               element.buttonText !== "";
             return (
               <VerticalTimelineElement
-                key={element.key}
+                key={index} // Use the index as the key
                 date={element.date}
                 dateClassName="date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-                icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+                icon={isWorkIcon ? <workIcon /> : <schoolIcon />}
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
@@ -67,6 +68,8 @@ function App() {
             );
           })}
         </VerticalTimeline>
+        <br />
+        <br />
       </div>
     </div>
   );

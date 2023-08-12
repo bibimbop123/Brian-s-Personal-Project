@@ -11,7 +11,7 @@ body{
   font-size:16px;
 }
 .title {
-  font-size:15em;
+  font: 10em;
   text-align: center;
   font-family: "Bebas Neue", Sans-serif;
 }
