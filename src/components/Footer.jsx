@@ -3,7 +3,6 @@ import React from "react";
 export function Footer() {
   return (
     <footer className="footer">
-      check out my github!
       <a
         href="https://github.com/bibimbop123"
         target="_blank"
@@ -17,7 +16,6 @@ export function Footer() {
           height="5px"
         />
       </a>
-      Contact me on Linkedin!
       <a
         href="https://www.linkedin.com/in/brian-kim-0a0a1b1b1/"
         target="_blank"
