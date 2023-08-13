@@ -20,7 +20,7 @@ export function Contact() {
         />
       </a>
       <a
-        href="https://www.linkedin.com/in/brian-kim-0a0a1b1b1/"
+        href="https://www.linkedin.com/in/bibimbop/"
         target="_blank"
         rel="noopener noreferrer"
       >
