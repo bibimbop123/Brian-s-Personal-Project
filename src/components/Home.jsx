@@ -4,6 +4,7 @@ import { Portfolio } from "./Portfolio";
 import { Footer } from "./Footer";
 import BrianYouth from "../assets/BrianYouth.jpg";
 import ".././App.css";
+import { Timeline } from "./Timeline";
 
 export function Home() {
   return (
@@ -28,6 +29,7 @@ export function Home() {
       <br />
       <br />
       <Portfolio />
+      <Timeline />
       <Footer key="footer" />
       <br />
       <br />
