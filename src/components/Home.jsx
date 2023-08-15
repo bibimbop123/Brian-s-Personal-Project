@@ -29,6 +29,8 @@ export function Home() {
       <br />
       <br />
       <Portfolio />
+      <br />
+      <br />
       <Timeline />
       <Footer key="footer" />
       <br />
